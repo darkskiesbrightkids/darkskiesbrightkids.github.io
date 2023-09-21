@@ -1785,6 +1785,7 @@ input, select, textarea {
 			margin: 0 0 3em 0;
 		}
 
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1796,8 +1797,10 @@ input, select, textarea {
 		}
 
 			.image.centered img {
-				margin: 0 auto;
-				width: auto;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
 			}
 
 	a.image:hover {
