@@ -1827,6 +1827,11 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
+		ul.no-bullets {
+			list-style-type: none; /* Remove bullets */
+			padding: 0; /* Remove padding */
+			margin: 0; /* Remove margins */
+		  }
 /* Actions */
 
 	ul.actions {
