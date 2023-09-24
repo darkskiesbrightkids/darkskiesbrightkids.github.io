@@ -37,6 +37,30 @@ ol, ul {
 	list-style: none;
 }
 
+/* Alex Garcia is writing this */
+
+#content > header {
+	padding-top: 3rem;
+}
+
+/* Media query for gallery */
+@media (min-width: 900px) {
+	/* Set a maximum size for images */
+	.scroll-container > img {
+		max-width:40rem;
+		max-height: 25rem;
+	}
+}
+@media (max-width: 900px) {
+	/* Small screens make images smaller */
+	.scroll-container > img {
+		max-width:20rem;
+		max-height: 15rem;
+	}
+}
+
+/* End Alex */
+
 blockquote, q {
 	quotes: none;
 }
@@ -216,6 +240,7 @@ input, select, textarea {
 
 	header {
 		margin-bottom: 1.5em;
+
 	}
 
 		header > p {

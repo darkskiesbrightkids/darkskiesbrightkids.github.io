@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="Shortcut Icon" type="image/png" href="media/DSBK_thum.jpg">
+		<link rel="Shortcut Icon" type="image/png" href="media/favicon.ico">
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -39,7 +39,7 @@
 											<li><a href="camp.html">Summer Camps</a></li>
 										</ul>
 									</li>
-									<li class="break"><a href="#">Resources</a>
+									<li class="break"><a href="resources.html">Resources</a>
 										<ul>
 											<li><a href="sheets.html">Activity Sheets</a></li>
 											<li><a href="book.html">Our Book</a></li>
@@ -179,7 +179,7 @@
 					</div>
 					<div id="copyright" class="container">
 						<ul class="menu">
-							<li>&copy; DSBK, 2023. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; DSBK, <span id="copyright_year"></span>. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
 				</div>
@@ -196,3 +196,10 @@
 
 	</body>
 </html>
+
+<script>
+	// This is so we don't have to update the year of the copyright every year!
+	const d = new Date();
+	let year = d.getFullYear();
+	document.getElementById("copyright_year").innerHTML = year;
+</script>
