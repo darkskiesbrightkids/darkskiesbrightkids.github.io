@@ -2764,7 +2764,7 @@ input, select, textarea {
 		/* Header */
 
 			#logo {
-				position: relative;
+				position: fixed;
 			}
 
 				#logo a {
@@ -3075,7 +3075,7 @@ input, select, textarea {
 		/* Header */
 
 			#logo {
-				position: relative;
+				position: fixed;
 				left: 0;
 				top: 0;
 				margin: 0;
