@@ -169,7 +169,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #f35858;
+			color: #6125d1;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -245,7 +245,7 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			color: #f35858;
+			color: #6125d1;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -2065,7 +2065,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
+			color: #6125d1;
 			border-color: rgba(243, 88, 88, 0.5);
 		}
 
@@ -2286,7 +2286,7 @@ input, select, textarea {
 			}
 
 			.dropotron li.active > a, .dropotron li.active > span {
-				color: #f35858;
+				color: #6125d1;
 			}
 
 		.dropotron.level-0 {
