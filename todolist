@@ -3,3 +3,9 @@ This is a running list of edits/changes to make to the DSBK website. These may b
 As you complete tasks, please remove them from this document!
 
 - possibly change "DSBK" text (center of header/nav bar) to the current DSBK logo (same as profile picture on Github)
+
+- Add more (and more recent) pictures (Alex did some of this, but it is probably an ongoing thing) - Google Drive link: https://drive.google.com/drive/u/1/folders/14kBExIrxfl97_RTRkykki1LcnCtvqec9
+
+- Put book on website (? or at least fix link. Alex didn't look too hard into this... it's 10 PM)
+
+- Make more mobile friendly (px is a really bad unit for mobile -- em, rem, %, etc are better)
